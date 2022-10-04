@@ -9,13 +9,17 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
+        
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+            // Button instance with closure
+            Button("Click Me", action: {
+                
+                print("Hello World")
+                
+            })
+            
+            // Button instance with trailing closure
         }
-        .padding()
     }
 }
 
