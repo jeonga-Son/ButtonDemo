@@ -19,6 +19,9 @@ struct ContentView: View {
             })
             
             // Button instance with trailing closure
+            Button("Click Me") {
+                print("Hello World")
+            }
         }
     }
 }
